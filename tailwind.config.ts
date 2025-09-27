@@ -27,10 +27,6 @@ export default {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
         },
-        destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
-        },
         muted: {
           DEFAULT: "hsl(var(--muted))",
           foreground: "hsl(var(--muted-foreground))",
@@ -39,24 +35,24 @@ export default {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
         },
-        popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
-        },
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
+        // EcoQuest color palette
+        eco: {
+          dark: "hsl(var(--eco-dark))",
+          medium: "hsl(var(--eco-medium))",
+          sage: "hsl(var(--eco-sage))",
+          light: "hsl(var(--eco-light))",
+          cream: "hsl(var(--eco-cream))",
+          pale: "hsl(var(--eco-pale))",
         },
+      },
+      backgroundImage: {
+        'gradient-eco': 'var(--gradient-eco)',
+        'gradient-glow': 'var(--gradient-glow)',
+        'gradient-glass': 'var(--gradient-glass)',
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,6 +80,13 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "slide-up": "slideUp 0.8s ease-out",
+        "rotate": "rotate 20s linear infinite",
+        "float": "float 3s ease-in-out infinite",
+        "bounce": "bounce 2s infinite",
+        "pulse": "pulse 2s infinite",
+        "fill": "fillAnimation 1.5s ease-out",
+        "float-action": "floatAction 3s ease-in-out infinite",
       },
     },
   },
