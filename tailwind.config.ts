@@ -39,18 +39,18 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // EcoQuest color palette
-        eco: {
-          dark: "hsl(var(--eco-dark))",
-          medium: "hsl(var(--eco-medium))",
-          sage: "hsl(var(--eco-sage))",
-          light: "hsl(var(--eco-light))",
-          cream: "hsl(var(--eco-cream))",
-          pale: "hsl(var(--eco-pale))",
+        // Blocky Adventure color palette
+        block: {
+          dark: "hsl(var(--block-dark))",
+          medium: "hsl(var(--block-medium))",
+          sage: "hsl(var(--block-sage))",
+          light: "hsl(var(--block-light))",
+          cream: "hsl(var(--block-cream))",
+          pale: "hsl(var(--block-pale))",
         },
       },
       backgroundImage: {
-        'gradient-eco': 'var(--gradient-eco)',
+        'gradient-block': 'var(--gradient-block)',
         'gradient-glow': 'var(--gradient-glow)',
         'gradient-glass': 'var(--gradient-glass)',
       },
