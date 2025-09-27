@@ -1,7 +1,7 @@
-import StudentAdventureDashboard from '@/components/StudentAdventureDashboard';
+import EcoQuestDashboard from '@/components/EcoQuestDashboard';
 
 const Index = () => {
-  return <StudentAdventureDashboard />;
+  return <EcoQuestDashboard />;
 };
 
 export default Index;

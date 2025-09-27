@@ -6,43 +6,43 @@
 
 @layer base {
   :root {
-  /* Blocky Adventure color palette */
-  --block-dark: 50 77 52;       /* #324D34 - Deep forest green */
-  --block-medium: 114 153 121;  /* #729979 - Medium green */
-  --block-sage: 113 148 66;     /* #719442 - Bright green */
-  --block-light: 211 212 100;   /* #D3D464 - Yellow */
-  --block-cream: 235 228 194;   /* #EBE4C2 - Cream */
-  --block-pale: 206 205 169;    /* #CECDA9 - Light beige */
+    /* Nature-inspired color palette from uploaded image */
+    --eco-dark: 110 47% 20%;      /* #324034 - Deep forest green */
+    --eco-medium: 110 35% 45%;    /* #728978 - Medium sage green */
+    --eco-sage: 110 25% 55%;      /* #7b8462 - Sage green */
+    --eco-light: 57 45% 75%;      /* #D3D464 - Light yellow-green */
+    --eco-cream: 48 20% 85%;      /* #E8E4C2 - Cream */
+    --eco-pale: 110 15% 85%;      /* #CEC0A9 - Pale green */
 
     /* Semantic color assignments */
     --background: 0 0% 100%;
     --foreground: var(--eco-dark);
 
-    --primary: var(--block-medium);
+    --primary: var(--eco-medium);
     --primary-foreground: 0 0% 100%;
 
-    --secondary: var(--block-sage);
+    --secondary: var(--eco-sage);
     --secondary-foreground: 0 0% 100%;
 
-    --muted: var(--block-pale);
-    --muted-foreground: var(--block-dark);
+    --muted: var(--eco-pale);
+    --muted-foreground: var(--eco-dark);
 
-    --accent: var(--block-light);
-    --accent-foreground: var(--block-dark);
+    --accent: var(--eco-light);
+    --accent-foreground: var(--eco-dark);
 
     --card: 0 0% 100%;
-    --card-foreground: var(--block-dark);
+    --card-foreground: var(--eco-dark);
 
-    --border: var(--block-pale);
-    --input: var(--block-pale);
-    --ring: var(--block-medium);
+    --border: var(--eco-pale);
+    --input: var(--eco-pale);
+    --ring: var(--eco-medium);
 
     /* Gradient definitions */
-    --gradient-block: linear-gradient(135deg, hsl(var(--block-dark)), hsl(var(--block-medium)));
-    --gradient-glow: linear-gradient(135deg, hsl(var(--block-sage)), hsl(var(--block-light)));
-    --gradient-glass: radial-gradient(circle at 20% 20%, hsla(var(--block-medium), 0.1) 0%, transparent 50%),
-                      radial-gradient(circle at 80% 80%, hsla(var(--block-sage), 0.1) 0%, transparent 50%),
-                      radial-gradient(circle at 40% 60%, hsla(var(--block-light), 0.05) 0%, transparent 50%);
+    --gradient-eco: linear-gradient(135deg, hsl(var(--eco-medium)), hsl(var(--eco-sage)));
+    --gradient-glow: linear-gradient(135deg, hsl(var(--eco-light)), hsl(var(--eco-cream)));
+    --gradient-glass: radial-gradient(circle at 20% 20%, hsla(var(--eco-medium), 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 80% 80%, hsla(var(--eco-sage), 0.1) 0%, transparent 50%),
+                      radial-gradient(circle at 40% 60%, hsla(var(--eco-light), 0.05) 0%, transparent 50%);
 
     /* Glass effects */
     --glass-background: hsla(0, 0%, 100%, 0.7);
